@@ -1,0 +1,90 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'alberts_plugin_dialog_base.ui'
+#
+# Created by: PyQt5 UI code generator 5.9.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_AlbertsPluginDialogBase(object):
+    def setupUi(self, AlbertsPluginDialogBase):
+        AlbertsPluginDialogBase.setObjectName("AlbertsPluginDialogBase")
+        AlbertsPluginDialogBase.resize(496, 546)
+        self.label_text_1 = QtWidgets.QLabel(AlbertsPluginDialogBase)
+        self.label_text_1.setGeometry(QtCore.QRect(40, 20, 171, 41))
+        self.label_text_1.setObjectName("label_text_1")
+        self.label_Warstwa = QtWidgets.QLabel(AlbertsPluginDialogBase)
+        self.label_Warstwa.setGeometry(QtCore.QRect(40, 90, 161, 51))
+        self.label_Warstwa.setText("")
+        self.label_Warstwa.setObjectName("label_Warstwa")
+        self.pushButton_Warstwa = QtWidgets.QPushButton(AlbertsPluginDialogBase)
+        self.pushButton_Warstwa.setGeometry(QtCore.QRect(30, 170, 161, 31))
+        self.pushButton_Warstwa.setObjectName("pushButton_Warstwa")
+        self.label_text_2 = QtWidgets.QLabel(AlbertsPluginDialogBase)
+        self.label_text_2.setGeometry(QtCore.QRect(300, 20, 121, 41))
+        self.label_text_2.setObjectName("label_text_2")
+        self.label_Obiekty = QtWidgets.QLabel(AlbertsPluginDialogBase)
+        self.label_Obiekty.setGeometry(QtCore.QRect(300, 50, 161, 31))
+        self.label_Obiekty.setText("")
+        self.label_Obiekty.setObjectName("label_Obiekty")
+        self.pushButton_Obiekty = QtWidgets.QPushButton(AlbertsPluginDialogBase)
+        self.pushButton_Obiekty.setGeometry(QtCore.QRect(260, 170, 161, 31))
+        self.pushButton_Obiekty.setObjectName("pushButton_Obiekty")
+        self.label_text_3 = QtWidgets.QLabel(AlbertsPluginDialogBase)
+        self.label_text_3.setGeometry(QtCore.QRect(150, 210, 271, 41))
+        self.label_text_3.setObjectName("label_text_3")
+        self.label_Roznica = QtWidgets.QLabel(AlbertsPluginDialogBase)
+        self.label_Roznica.setGeometry(QtCore.QRect(200, 260, 201, 31))
+        self.label_Roznica.setText("")
+        self.label_Roznica.setObjectName("label_Roznica")
+        self.label_text_4 = QtWidgets.QLabel(AlbertsPluginDialogBase)
+        self.label_text_4.setGeometry(QtCore.QRect(220, 320, 261, 41))
+        self.label_text_4.setObjectName("label_text_4")
+        self.label_Pole = QtWidgets.QLabel(AlbertsPluginDialogBase)
+        self.label_Pole.setGeometry(QtCore.QRect(200, 390, 201, 31))
+        self.label_Pole.setText("")
+        self.label_Pole.setObjectName("label_Pole")
+        self.radioButton_metry = QtWidgets.QRadioButton(AlbertsPluginDialogBase)
+        self.radioButton_metry.setGeometry(QtCore.QRect(10, 380, 141, 20))
+        self.radioButton_metry.setChecked(True)
+        self.radioButton_metry.setObjectName("radioButton_metry")
+        self.radioButton_ary = QtWidgets.QRadioButton(AlbertsPluginDialogBase)
+        self.radioButton_ary.setGeometry(QtCore.QRect(10, 400, 95, 20))
+        self.radioButton_ary.setObjectName("radioButton_ary")
+        self.radioButton_hektary = QtWidgets.QRadioButton(AlbertsPluginDialogBase)
+        self.radioButton_hektary.setGeometry(QtCore.QRect(10, 420, 95, 20))
+        self.radioButton_hektary.setObjectName("radioButton_hektary")
+        self.label_text_5 = QtWidgets.QLabel(AlbertsPluginDialogBase)
+        self.label_text_5.setGeometry(QtCore.QRect(20, 350, 191, 31))
+        self.label_text_5.setObjectName("label_text_5")
+        self.textEdit = QtWidgets.QTextEdit(AlbertsPluginDialogBase)
+        self.textEdit.setGeometry(QtCore.QRect(210, 80, 271, 81))
+        self.textEdit.setObjectName("textEdit")
+        self.pushButton_Licz = QtWidgets.QPushButton(AlbertsPluginDialogBase)
+        self.pushButton_Licz.setGeometry(QtCore.QRect(120, 460, 121, 41))
+        self.pushButton_Licz.setObjectName("pushButton_Licz")
+        self.pushButton_Anuluj = QtWidgets.QPushButton(AlbertsPluginDialogBase)
+        self.pushButton_Anuluj.setGeometry(QtCore.QRect(260, 460, 121, 41))
+        self.pushButton_Anuluj.setObjectName("pushButton_Anuluj")
+
+        self.retranslateUi(AlbertsPluginDialogBase)
+        QtCore.QMetaObject.connectSlotsByName(AlbertsPluginDialogBase)
+
+    def retranslateUi(self, AlbertsPluginDialogBase):
+        _translate = QtCore.QCoreApplication.translate
+        AlbertsPluginDialogBase.setWindowTitle(_translate("AlbertsPluginDialogBase", "Plugin of Albert"))
+        self.label_text_1.setText(_translate("AlbertsPluginDialogBase", "Name of the active layer"))
+        self.pushButton_Warstwa.setText(_translate("AlbertsPluginDialogBase", "Active layer"))
+        self.label_text_2.setText(_translate("AlbertsPluginDialogBase", "Chosen objects"))
+        self.pushButton_Obiekty.setText(_translate("AlbertsPluginDialogBase", "Objects"))
+        self.label_text_3.setText(_translate("AlbertsPluginDialogBase", "Height difference between two chosen points"))
+        self.label_text_4.setText(_translate("AlbertsPluginDialogBase", " Area of figure"))
+        self.radioButton_metry.setText(_translate("AlbertsPluginDialogBase", "square meter"))
+        self.radioButton_ary.setText(_translate("AlbertsPluginDialogBase", "are"))
+        self.radioButton_hektary.setText(_translate("AlbertsPluginDialogBase", "hectare"))
+        self.label_text_5.setText(_translate("AlbertsPluginDialogBase", "An unit for the area"))
+        self.pushButton_Licz.setText(_translate("AlbertsPluginDialogBase", "Compute HD/AREA"))
+        self.pushButton_Anuluj.setText(_translate("AlbertsPluginDialogBase", "Cancel"))
+
